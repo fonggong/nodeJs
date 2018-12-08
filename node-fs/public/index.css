@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#app{
+	width: 850px;
+	margin: auto;
+	height: 400px;
+	margin-top: 20px;
+}
+#app>form{
+	width: 400px;
+	border: 1px solid #FF9900;
+	float: left;
+	margin: 10px 10px;
+	border-radius: 10px;
+	text-align: center;
+	height: 300px;
+}
+
+#app p{
+	margin: 10px 0;
+	font-size: 20px;
+	color: #0000FF;
+	font-family: "宋体";
+}
+
+#app input[name="username"],#app input[name="password"],#app input[name="password1"]{
+	width: 150px;
+	margin: 0 0 10px 10px;
+	border: none;
+	border: 1px solid #bbb;
+	text-indent: 5px;
+	height: 24px;
+	border-radius: 5px;
+}
+
+#app input[type="submit"]{
+	width: 200px;
+	height: 30px;
+	background: #00BFFF;
+	color: white;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	border: none;
+	border-radius: 7px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#app input[type="submit"]:hover{
+	background: #FF6900;
+}
+
+#app #yan{
+	width: 160px;
+	height: 24px;
+	border: none;
+	border-radius: 7px;
+	border: 1px solid #BBBBBB;
+	text-indent: 5px;
+}
+#app input[type="button"]{
+	height: 25px;
+	width: 60px;
+	background: #06BFAB;
+	color: white;
+	font-size: 16px;
+	border: none;
+	border: 1px solid #BBBBBB;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#app input[type="button"]:hover{
+	background: darkgoldenrod;
+}
